@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.word-list {
+    max-height: 80vh;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.word-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.word-item:last-child {
+    border-bottom: none;
+}
+
+.word {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.translation {
+    font-style: italic;
+    color: #666;
+}
+
+.description {
+    margin-top: 5px;
+}
