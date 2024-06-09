@@ -51,3 +51,12 @@ body {
 .description {
     margin-top: 5px;
 }
+
+.examples {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.example-item {
+    margin-bottom: 5px;
+}

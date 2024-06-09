@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="word">${word.word}</div>
                 <div class="translation">${word.translation}</div>
                 <div class="description">${word.description}</div>
+                ${word.examples ? `<div class="examples"><strong>Examples:</strong><ul>${word.examples.map(example => `<li class="example-item">${example}</li>`).join('')}</ul></div>` : ''}
             `;
             wordList.appendChild(wordItem);
         });
@@ -21,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const lowerQuery = query.toLowerCase();
             return word.word.toLowerCase().includes(lowerQuery) ||
                    word.translation.toLowerCase().includes(lowerQuery) ||
-                   word.description.toLowerCase().includes(lowerQuery);
+                   word.description.toLowerCase().includes(lowerQuery) ||
+                   (word.examples && word.examples.some(example => example.toLowerCase().includes(lowerQuery)));
         });
     }
 
