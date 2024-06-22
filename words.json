@@ -355,5 +355,67 @@
         "word": "das Volk",
         "translation": "Народ, люди",
         "description": "От этого слова происходит много занятных немецких слов по типу Volkswagen -- народная тележка, die Bevölkerung -- население и т д. У русского слова фольклёр те же корни и семантика."
+    }, 
+    {
+        "word": "ergänzen",
+        "translation": "Дополнять, добавлять, пополнять",
+        "description": "От слова ganz -- целый, полный."
+    },
+    {
+        "word": "ebenso",
+        "translation": "Ровно так, именно так",
+        "description": "'Eben' -- это также ровный, выходит 'ровно так'."
+    },
+    {
+        "word": "vertreten",
+        "translation": "Представлять, заменять",
+        "description": "Ver обращает действие во многих смыслах. Treten -- это шагать, ступать. Дословно выходит что то типо ступать за кого-то.",
+        "examples": [
+            "Der Botschafter vertritt sein Land im Ausland (Посол представляет свою страну за рубежом)."
+        ]
+    },
+    {
+        "word": "erledigen",
+        "translation": "Выполнить, закончить, справиться с чем-то",
+        "description": "'Ledig' в немецком это неженатый, холостой, одинокий. Erledigen это как будто делаться свободным от чего-то, заканчивать что-либо."
+    },
+    {
+        "word": "beschließen",
+        "translation": "Решать, принимать решение, завершать",
+        "description": "'Schließen' -- закрывать. Тут можно всопринимать как закрытие обсуждения путем принятия решения."
+    },
+    {
+        "word": "betreffen",
+        "translation": "Касаться, затрагивать, относиться",
+        "description": "'Treffen' означает 'встречать' или 'попадать', и в данном контексте 'betreffen' связано с тем, что что-то попадает под действие или влияние чего-либо.",
+        "examples": [
+            "Was mich betrifft, habe ich mich dafür vor ein paar Jahren entschieden (Что касается меня, я решился на это несколько лет назад).",
+            "Diese Vorwürfe betreffen mich nicht (Эти обвинения ко мне не относятся)."
+        ]
+    },
+    {
+        "word": "vorschlagen",
+        "translation": "Предлагать",
+        "description": "Vor -- до, перед, пред. 'Schlagen' -- бить. Предложение, в каком-смысле, выталкивается на обсуждение. Ну так себе мотивация."
+    },
+    {
+        "word": "zustimmen",
+        "translation": "Соглашаться",
+        "description": "'die Stimme' -- голос, stimmen -- выбирать, голосовать. 'Zustimmen' интуитивно." 
+    },
+    {
+        "word": "unmittelbar",
+        "translation": "Непосредственный, прямой, без промежуточных звеньев",
+        "description": "Без (отрицание un) -- средных (das Mittel (середина)) -- звений." 
+    },
+    {
+        "word": "darunter",
+        "translation": "В том числе",
+        "description": "'Unter' -- под. Там под. I speak languages as the ones *above*: A, B, C. Какая то логика в этом есть." 
+    },
+    {
+        "word": "leiten",
+        "translation": "Вести, руководить",
+        "description": "Похоже на английское lead." 
     }
 ]
